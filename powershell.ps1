@@ -92,3 +92,19 @@ Clear-Host
 #     Write-Host $i
 #     $i++
 # }
+
+##### For Each
+# $ints = @(4, 100, 23, 9, 17)
+
+# foreach ($i in $ints) {
+#     Write-Host ($i + 1)
+# }
+
+##### For to go through arrays
+# $ints = @(4, 100, 23, 9, 17)
+
+# for ($i = 0; $i -lt $ints.Length; $i++) {
+#     Write-Host $ints[$i]
+# }
+
+##### 
